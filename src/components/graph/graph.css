@@ -1,0 +1,222 @@
+
+
+.main_graph{
+    width:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    grid-template-areas: 
+    "table1 table2";
+}
+
+.graph_table{
+    margin-top:5%;
+    height:100%;
+    text-align:center;
+    grid-area:table1;
+    width:100%;
+    
+    float:right;
+
+}
+
+.graph_bench{
+    margin-top:5%;
+    width:auto;
+    text-align:center;
+    grid-area:table2;
+    display: block;
+    
+}
+
+
+#title_table_stock, #title_bench{
+    font-weight: bold;
+    padding-left: 5px;
+    color:#182628;
+    font-family: 'Arvo', serif;
+    font-size:20px;
+    text-align: left;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    
+
+}
+ 
+  .button_list_bench{
+      grid-area: displayBenchSet ;
+      display:block;
+      float:left;
+      margin:auto auto auto 0;
+      
+  }
+  button{
+      border:none;
+      padding: 0;
+      margin-left: 15px;
+      font-size: 20px;
+      background: none;
+      cursor: pointer;
+      color:#182628;
+      font-family: 'Arvo', serif;
+  }
+
+  button:hover{
+      background-color: #ddd8d8;
+  }
+
+
+
+#stockInfo tr:hover {background-color: #ddd;}
+
+
+table#stockInfo, table#stockInfo td{
+      border-top: none;
+      border-left: none;
+      border-right:none;
+      
+
+  }
+
+  table#stockInfo td{
+    border-bottom: 2px solid #182628;
+}
+
+  table#stockInfo td{
+      padding-bottom: 7px;
+  }
+
+table#stockInfo tr td:nth-child(1) {
+    width: 50%;
+    padding-left: 5px;
+    text-align: left;
+    }
+table#stockInfo tr td:nth-child(2) {
+        width: 40%;
+        text-align:right;
+        vertical-align: middle;
+        padding-right: 10px;
+    }
+table#stockInfo tr td:nth-child(3) {
+       
+        text-align:right;
+        vertical-align: middle;
+        padding-right: 3px;
+    }
+p#company_name_tag{
+    font-size:11px;
+    text-align: left;
+    color: #808080
+}
+
+.benchMarkdisplay{
+    display:grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas:
+    "empty displayBenchSet"
+    "displayTimeSet displayData" ;
+}
+
+.list_time_frame{
+    grid-area:displayTimeSet;
+    width:100%;
+}
+
+.display_data_benchmark{
+    grid-area:displayData;
+    display:block;
+   
+}
+.list_time_frame button{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:auto;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color:#65CCB8;
+    margin-bottom: 1px;
+    color:black;
+    font-family: 'Arvo', serif;
+    font-size:15px;
+}
+
+.button_list_bench button{
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color:#182628;
+    color:#F2F2F2;
+    margin-left:2px;
+    font-family: 'Arvo', serif;
+    font-size:15px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .main_graph{
+        width:auto;
+        height: 500px;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr;
+        grid-template-areas: 
+        "table1"
+        "table2";
+    }
+    .button_list_bench  button{
+    padding: 6px 6px;
+    border-radius: 8px;
+    background-color:#182628;
+    color:#F2F2F2;
+    margin-left:2px;
+    font-family: 'Arvo', serif;
+    font-size:12px;
+    }
+    .list_time_frame button{
+        display:block;
+        width:auto;
+        height:auto;
+        margin:auto;
+        padding: 8px 15px;
+        border-radius: 8px;
+        background-color:#65CCB8;
+        margin-bottom: 1px;
+        color:black;
+        font-family: 'Arvo', serif;
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width: 1210px) {
+
+    .main_graph{
+        margin-left: 5%;
+        margin-right:5%
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .main_graph{
+        margin-left: 10%;
+        margin-right:10%
+    }
+}
+@media screen and (min-width: 1550px) {
+
+    .main_graph{
+        margin-left: 15%;
+        margin-right:15%
+    }
+}
+
+@media screen and (min-width: 1750px) {
+
+    .main_graph{
+        margin-left: 18%;
+        margin-right:18%;
+    }
+}

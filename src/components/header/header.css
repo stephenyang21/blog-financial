@@ -1,0 +1,34 @@
+h1#title{
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    color:#182628;
+    font-weight:700;
+    text-align: center;
+    margin-top:5%
+}
+h3#subtitle{
+    font-family: 'Arvo', serif;
+    text-align:center;
+    font-size: 17px;
+    margin-top:15px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    h1#title{
+        font-family: 'Arvo', serif;
+        font-size: 48px;
+        color:#182628;
+        font-weight:700;
+        text-align: center;
+        margin-top:5%
+    }
+
+    h3#subtitle{
+        font-family: 'Arvo', serif;
+        text-align:center;
+        font-size: 18px;
+        margin-top:5px;
+    }
+}
