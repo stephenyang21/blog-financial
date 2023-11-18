@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-18T13:00:47.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IIw4Qfk1a6ma9Wb0CwM2" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-18T13:16:32.076Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YPGTBehogr3BegG6zPZl" version="22.1.3" type="github">
   <diagram name="Page-1" id="quJaiozy33Anq29grFRM">
     <mxGraphModel dx="821" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,11 +15,29 @@
         <mxCell id="FPTDE7UYSTd6VP69Lmrt-1" value="Identifying Trend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
           <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FPTDE7UYSTd6VP69Lmrt-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="520" y="490" width="120" height="60" as="geometry" />
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPTDE7UYSTd6VP69Lmrt-3" target="FPTDE7UYSTd6VP69Lmrt-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FPTDE7UYSTd6VP69Lmrt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FPTDE7UYSTd6VP69Lmrt-3" target="FPTDE7UYSTd6VP69Lmrt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPTDE7UYSTd6VP69Lmrt-3" target="FPTDE7UYSTd6VP69Lmrt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-3" value="Trading Range Day" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-4" value="Trend Day" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="520" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPTDE7UYSTd6VP69Lmrt-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
